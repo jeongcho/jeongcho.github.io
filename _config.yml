@@ -16,23 +16,23 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: jeongcho                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 일단 기록하자   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  알고싶은것도 많고 알아야 할것도 많은 시대, 일단 기록하고 보자
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://jeongcho.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: jeongcho             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -40,8 +40,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: jeongcho
+  email: jeongcho77@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
@@ -80,10 +80,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: '/'
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -199,3 +199,20 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+
+jekyll_compose:
+    auto_open: true
+    
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      author:
+      image:
+      categories:
+      tags:
+    posts:
+      author:
+      image:
+      categories:
+      tags:
