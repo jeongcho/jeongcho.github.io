@@ -9,9 +9,8 @@ tags: matlab
 ---
 
 
-matlab 에서 특정 data를 plot 한 후에 간단하게 mouse event를 활용하고 싶은 경우가 있다. 
-
-이럴 경우 아래 예제와 같이 사용할 수 있다.
+Matlab 에서 특정 data를 plot 한 후에 간단하게 mouse event를 활용하고 싶을 때가 있습니다.
+아래 예제와 같은 형식으로 간단하게 활용 가능합니다.
 
 ```matlab
 
