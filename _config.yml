@@ -21,12 +21,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: jeongcho                          # the main title
+title: JNotes                          # the main title
 
-tagline: 일단 기록하자   # it will display as the sub-title
+tagline: 일단 쓰고, 읽고, 정리하자   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  알고싶은것도 많고 알아야 할것도 많은 시대, 일단 기록하고 보자
+  알고싶은것도 많고 알아야 할 것도 많은 시대, 일단은 기록하고 보자
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://jeongcho.github.io'
@@ -44,19 +44,19 @@ social:
   email: jeongcho77@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/jeongcho       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: 47UmB_KZnG2MeXWym_YYVZPPoWsgTZfjYtA4NGkbTXE              # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id:                 # fill in your Google Analytics ID
+google_analytics: 
+  id: G-21FCGRV42L                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
