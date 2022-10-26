@@ -2,7 +2,7 @@
 layout: post
 title: Vivado project Git으로 관리하는 방법
 date: 2022-10-26 13:07 +0900
-author: jeongcho
+author: 
 image:
 categories: 
 tags: [fpga, git]
