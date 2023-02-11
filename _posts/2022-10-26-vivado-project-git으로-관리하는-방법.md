@@ -17,7 +17,7 @@ vivado project는 아래와 같은 방법을 사용하여 git으로 관리 할 �
 `HDL source 파일 및 vivado의 IP 파일을 vivado project 폴더와 구분하여 별도의 폴더로 관리하는 것이 관리하기가 편합니다.`  
 
 
-![vivado project](../assets/img/fpga/2022-10-26-vivado-project_1.PNG)  
+![vivado project](assets/img/fpga/2022-10-26-vivado-project_1.PNG)  
 
 위와 같이 git으로 관리되는 폴더 아래에 vivado project 폴더와 소스 폴더를 구별하여 정리합니다.
 
