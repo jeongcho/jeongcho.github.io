@@ -44,5 +44,5 @@ end
 a1 창에서 마우스 클릭하여 active 한 후에
 마우스 포인터가 이동할 때마다 event 가 발생한다.
 
-![Desktop View](https://jeongcho.github.io/assets/img/202210191001.PNG)
+![Desktop View](assets/img/202210191001.PNG)
 
