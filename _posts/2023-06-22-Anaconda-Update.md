@@ -2,7 +2,7 @@
 layout: post
 title: Anaconda Update 방법
 date: 2023-06-22 16:52 +0900
-author: jeongcho
+author:
 image:
 categories:
 tags: [python]
