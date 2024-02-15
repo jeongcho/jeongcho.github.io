@@ -2,10 +2,10 @@
 layout: post
 title: Vivado simulation error [common 17-162] 발생할 경우
 date: 2024-02-15 10:30 +0900
-author: jeong
+author: 
 image:
 categories:
-tags: [fpga] [vivado]
+tags: [fpga,vivado]
 ---
 
 vivado IDE project 환경에서 갑자기 아래와 같은 데러가 발생하며 simulation 이 안될때가 있다.
