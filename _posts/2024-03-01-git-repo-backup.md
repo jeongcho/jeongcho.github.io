@@ -34,30 +34,21 @@ url = 'https://api.github.com/user/repos?per_page=100&type=all'
 headers = {'Authorization': f'token {ACCESS_TOKEN}'}
 response = requests.get(url, headers=headers)
 
-# 응답 확인
+# response가 성공적인지 확인
 if response.status_code == 200:
     repositories = response.json()
-    n=1
-    for repo in repositories:
-        clone_url = repo['clone_url']
+    for index, repo in enumerate(repositories, start=1):
         repo_name = repo['name']
         dest_path = os.path.join(DEST_FOLDER, repo_name)
 
-        # # 리포지토리 클론
-        # print(f'{n} : Cloning {repo_name}...')
-        # subprocess.run(['git', 'clone', clone_url, dest_path])
-
-        # 해당 폴더가 이미 존재하는 경우, git pull 실행
+        # 해당 폴더가 이미 존재하는 경우 git pull, 그렇지 않은 경우 git clone 실행
         if os.path.isdir(dest_path):
-            print(f'{n} : Updating {repo_name}...')
+            print(f'{index} : Updating {repo_name}...')
             subprocess.run(['git', '-C', dest_path, 'pull'])
         else:
-            # 폴더가 존재하지 않는 경우, 새로 클론
-            clone_url = repo['clone_url']
-            print(f'{n} : Cloning {repo_name}...')
-            subprocess.run(['git', 'clone', clone_url, dest_path])
+            print(f'{index} : Cloning {repo_name}...')
+            subprocess.run(['git', 'clone', repo['clone_url'], dest_path])
 
-        n=n+1
     print('All repositories have been cloned.')
 else:
     print('Failed to retrieve repositories. Please check your settings.')
