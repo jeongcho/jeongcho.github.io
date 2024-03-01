@@ -14,11 +14,11 @@ tags: [python,git]
 
 github token은 settings -> Develpoer settings -> Tokens 에서 만들 수 있다.
 
-![image](assets/img/fpga/2024-03-01_09_59_08.png)
+![image](assets/img/2024-03-01_09_59_08.png)
 
-![image](assets/img/fpga/2024-03-01_09_59_25.png)
+![image](assets/img/2024-03-01_09_59_25.png)
 
-![image](assets/img/fpga/2024-03-01_09_59_38.png)
+![image](assets/img/2024-03-01_09_59_38.png)
 
 ```python
 import requests
